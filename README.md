@@ -15,7 +15,13 @@ npx hardhat node
 # deploy contract to the local running node
 npx hardhat run --network localhost scripts/deploy-and-seed.js
 
+# deploy contract to the matic net
+npx hardhat run --network matic scripts/deploy-and-seed.js
+
 ```
+
+### Matic faucet
+https://faucet.polygon.technology/
 
 
 ### Tutorial Details
