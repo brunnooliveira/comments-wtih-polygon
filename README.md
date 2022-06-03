@@ -1,5 +1,23 @@
 # Create a Web3 Forum with Polygon
 
+
+## Hardhat 👷‍♂️
+```bash
+# init hardhat project
+npx hardhat
+
+# run contract tests
+npx hardhat test
+
+# run local ethereum node
+npx hardhat node
+
+# deploy contract to the local running node
+npx hardhat run --network localhost scripts/deploy-and-seed.js
+
+```
+
+
 ### Tutorial Details
 
 Today we're going to build together a fullstack decentralized forum that can be used in any dapp.
